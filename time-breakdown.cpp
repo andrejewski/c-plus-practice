@@ -14,7 +14,7 @@ int main() {
   int hours = input / HOUR;
   int minutes = (input % HOUR) / MINUTE;
   int seconds = (input % HOUR) % MINUTE;
-  
+
   cout
     << "Hours:   " << hours << endl
     << "Minutes: " << minutes << endl
